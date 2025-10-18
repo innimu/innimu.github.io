@@ -10,7 +10,7 @@ first_name: JeongIn
 last_name: Lee
 
 # Pronouns (optional)
-pronouns: she/her
+# pronouns: she/her
 
 # Status emoji
 status:
