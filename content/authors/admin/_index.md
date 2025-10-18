@@ -141,7 +141,7 @@ skills:
 languages:
   - name: Korean
     percent: 100
-  - name: English (TOEIC Speaking: AL)
+  - name: English (TOEIC Speaking AL)
     percent: 80
 #     summary: -TOEIC Speaking Advanced Low (AL)
 
