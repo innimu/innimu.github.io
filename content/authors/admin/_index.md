@@ -49,7 +49,7 @@ interests:
 
 
 education:
-  - area: MS 통계데이터사이언스
+  - area: 통계데이터사이언스학 석사 
     institution: 인하대학교
     date_start: 2023-09-01
     date_end: 2026-02-20
@@ -65,7 +65,7 @@ education:
       - Python을 활용한 '전산통계' 실습 수업 진행
       - 통계적 시뮬레이션, 최적화 방법론, 몬테카를로 기법 교육
 
-  - area: BS 통계학(금융분석 연계전공)
+  - area: 통계학 학사 (금융분석 연계전공)
     institution: 인하대학교
     date_start: 2019-03-04
     date_end: 2023-08-18
@@ -97,7 +97,16 @@ work Experience:
     summary: |2-
       - Python과 Tableau를 활용한 옥수수 수율 예측 모델 개발
       - 기존 모델 대비 예측 오차(MSE) 10% 감소 기여
-
+  - position: 데이터·업무 운영 담당(파트타임)
+    company_name: MK Academy
+    company_url: ''
+    company_logo: ''
+    date_start: 2021-05-01
+    date_end: '2025-10-01' # '현재'는 비워둡니다
+    summary: |2-
+      - Google Sheets를 활용하여 레포팅 시스템 자동화, 보고 시간 70% 단축 및 효율화 
+      - 쿼리 기반 급여 계산 프로세스 개발로 급여 처리 과정에서 정확도 및 효율 향상 
+      - 퇴원율 관련 지표 대시보드를 구축하여 데이터 기반 의사결정 지원
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
@@ -120,21 +129,21 @@ skills:
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: '🏃🏻‍♀️‍➡️' 
+      - name: 'Running 🏃🏻‍♀️‍➡️' 
         description: ''
         percent: 80
         icon: fas/person-running
-      - name: '🏊🏻‍♀️'  
+      - name: 'Swimming 🏊🏻‍♀️'  
         description: ''
         percent: 70
         icon: fas/person-swimming
 
-languages:
-  - name: Korean
-    # percent: 100
-  - name: English
-    # percent: 90
-    summary: -TOEIC Speaking Advanced Low (AL)
+# languages:
+#   - name: Korean
+#     percent: 100
+#   - name: English
+#     percent: 80
+#     summary: -TOEIC Speaking Advanced Low (AL)
 
 # Awards.
 #   Add/remove as many awards below as you like.
