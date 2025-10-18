@@ -134,7 +134,7 @@ languages:
     # percent: 100
   - name: English
     # percent: 90
-    summary: -TOEIC Speaking: Advanced Low (AL)
+    summary: -TOEIC Speaking Advanced Low (AL)
 
 # Awards.
 #   Add/remove as many awards below as you like.
