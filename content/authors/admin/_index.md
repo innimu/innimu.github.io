@@ -49,7 +49,7 @@ interests:
 
 
 education:
-  - area: MS 통계데이터사이언스학
+  - area: MS 통계데이터사이언스
     institution: 인하대학교
     date_start: 2023-09-01
     date_end: 2026-02-20
