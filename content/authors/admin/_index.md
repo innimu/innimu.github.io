@@ -1,6 +1,6 @@
 ---
 # Display name
-title: 이정인
+title: JeongIn Lee
 
 # Name pronunciation (optional)
 name_pronunciation: ''
@@ -23,7 +23,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: 데이터 사이언티스트
+role: Data Scientist
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
@@ -42,13 +42,14 @@ profiles:
     url: https://www.linkedin.com/in/jeongin/
 
 interests:
-  - 베이지안 추론
-  - 베이지안 계층적 메타분석
-  - 생성형 AI 
-  - 데이터 분석 및 시각화
+  - Bayesian Inference
+  - Bayesian Meta-Analysis
+  - Generative AI 
+  - Data Analysis & Visualization
+
 
 education:
-  - area: 통계데이터사이언스 석사
+  - area: MS 통계데이터사이언스학
     institution: 인하대학교
     date_start: 2023-09-01
     date_end: 2026-02-20
@@ -58,7 +59,7 @@ education:
       주요 연구: 베이지안 메타분석, 생성형 모델(diffusion)
       '전산통계' (Python) 실습 조교
 
-  - area: 통계학 학사 (금융분석 연계전공)
+  - area: BS 통계학(금융분석 연계전공)
     institution: 인하대학교
     date_start: 2019-03-04
     date_end: 2023-08-18
@@ -191,7 +192,7 @@ awards:
 ---
 안녕하세요, 복잡한 데이터 속 숨겨진 가치를 발굴하는 데이터 사이언티스트 이정인입니다. 👋
 
-- Research 🔬: 통계학 석사 과정에서 베이지안 계층적 메타분석 및 생성형 AI(Diffusion/Transformers)를 깊이 있게 다루었습니다.
+- Research 🔬: 통계학 석사 과정에서 베이지안 계층적 메타분석 및 생성형 AI를 연구하였습니다.
 - Work 💼: 프리랜서, 인턴 활동을 통해 산업 수요 예측 모델링 등 실제 비즈니스 문제를 해결한 경험이 있습니다.
 
 최신 AI 기법을 적용한 모델링과 실무형 데이터 분석 경험을 바탕으로 핵심 문제를 정의하고 정교한 모델링을 수행하여 비즈니스 성장에 기여하고자 합니다.
