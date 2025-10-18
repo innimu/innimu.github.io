@@ -1,0 +1,4 @@
+/* 홈페이지 메인 이름 폰트 두께 조절 */
+h1.hero-title {
+  font-weight: 400 !important; /* 400은 'normal' 두께입니다. 300은 'light' 입니다. */
+}
