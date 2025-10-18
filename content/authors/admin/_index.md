@@ -120,11 +120,11 @@ skills:
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name:🏃🏻‍♀️‍➡️
+      - name: '🏃🏻‍♀️‍➡️' 
         description: ''
         percent: 80
         icon: fas/person-running
-      - name: 🏊🏻‍♀️
+      - name: '🏊🏻‍♀️'  
         description: ''
         percent: 70
         icon: fas/person-swimming
