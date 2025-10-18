@@ -1,3 +1,4 @@
+---
 # Display name
 title: JeongIn Lee
 
@@ -33,24 +34,19 @@ organizations:
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:jeongin.lee108@gmail.com'
+    url: 'jeongin.lee108@gmail.com'
     label: E-mail Me
-  # - icon: brands/x
-  #   url: https://twitter.com/AlexAIResearch
   - icon: brands/github
     url: https://github.com/innimu
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/jeongin/
-  # - icon: academicons/google-scholar
-  #   url: https://scholar.google.com/citations?user=alexjohnson
-  # - icon: academicons/orcid
-  #   url: https://orcid.org/0000-0002-1825-0097
 
 interests:
   - Bayesian Inference
   - Bayesian Hierarchical Model for meta-analysis
   - Generative AI (Diffusion Models)
   - Data Analysis and Visualization
+
 
 education:
   - area: MS Statistics and Data Science
@@ -163,7 +159,6 @@ languages:
   - name: English
     percent: 90
     summary: 'TOEIC Speaking: Advanced Low (AL)'
-
 # Awards.
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
