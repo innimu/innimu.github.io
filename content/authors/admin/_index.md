@@ -54,20 +54,30 @@ education:
     date_start: 2023-09-01
     date_end: 2026-02-20
     summary: |
-      학점: 4.45/4.5
-      베이지안통계 연구실 (지도교수: 조성일)
-      주요 연구: 베이지안 메타분석, 생성형 모델(diffusion)
-      '전산통계' (Python) 실습 조교
+      - 학점: 4.45/4.5
+      - 베이지안통계 연구실 (지도교수: 조성일)
+
+      **[대학원 연구조교]** (2023.09 - 2025.08)
+      - "베이지안 메타분석을 활용한 카드뮴 노출 위해 기준치 추정" 연구 수행
+      - "Diffusion/Transformer 기반 이동형 미사일 발사대 희소 위성 영상 데이터 증강 및 복원" 연구 수행
+      
+      **[실습 조교 (전산통계)]** (2023.09 - 2024.12)
+      - Python을 활용한 '전산통계' 실습 수업 진행
+      - 통계적 시뮬레이션, 최적화 방법론, 몬테카를로 기법 교육
 
   - area: BS 통계학(금융분석 연계전공)
     institution: 인하대학교
     date_start: 2019-03-04
     date_end: 2023-08-18
     summary: |
-      학점: 3.97/4.5
-      베이지안통계 연구실 학부 연구생
+      - 학점: 3.97/4.5
+      
+      **[학부 연구생]** (2022.01 - 2023.08)
+      - 베이지안통계 연구실
+      - "비율 자료 모형화를 위한 베이지안 베타 회귀" 연구 주도 및 KCI 논문 게재
+      - 머신러닝/딥러닝 기반 예측 모델링 프로젝트 참여
 
-work:
+work Experience:
   - position: 프리랜서 데이터 사이언티스트
     company_name: 하이렙
     company_url: ''
@@ -75,27 +85,9 @@ work:
     date_start: 2025-06-24
     date_end: 2025-09-23
     summary: |2-
-      한국난방공사 수요 예측 프로젝트 주도
-      시계열 분석 End-to-End 파이프라인 구축
-      기존 모델 대비 예측 오차(MAPE) 75% 감소 성과
-  - position: 대학원 연구조교
-    company_name: 베이지안통계 연구실 (인하대학교)
-    company_url: ''
-    company_logo: ''
-    date_start: 2023-09-01
-    date_end: 2025-08-31
-    summary: |2-
-      "베이지안 메타분석을 활용한 카드뮴 노출 위해 기준치 추정" 연구 수행
-      "Diffusion/Transformer 기반 희소 위성 영상 (TEL 탐지) 데이터 증강 및 복원" 연구 수행
-  - position: 실습 조교 (전산통계)
-    company_name: 인하대학교 통계학과
-    company_url: ''
-    company_logo: ''
-    date_start: 2023-09-01
-    date_end: 2024-12-31
-    summary: |2-
-      Python을 활용한 '전산통계' 실습 수업 진행
-      통계적 시뮬레이션, 최적화 방법론, 몬테카를로 기법 교육
+      - 한국난방공사 열판매 수요 예측 프로젝트 주도
+      - 시계열 분석 End-to-End 파이프라인 구축
+      - 기존 모델 대비 예측 오차(MAPE) 75% 감소 성과
   - position: 데이터 사이언스 인턴
     company_name: 나노웨더
     company_url: ''
@@ -103,17 +95,8 @@ work:
     date_start: 2023-03-01
     date_end: 2023-05-31
     summary: |2-
-      Python과 Tableau를 활용한 옥수수 수율 예측 모델 개발
-      기존 모델 대비 예측 오차(MSE) 10% 감소 기여
-  - position: 학부 연구생
-    company_name: 베이지안통계 연구실 (인하대학교)
-    company_url: ''
-    company_logo: ''
-    date_start: 2022-01-01
-    date_end: 2023-08-31
-    summary: |2-
-      "비율 자료 모형화를 위한 베이지안 베타 회귀" 연구 주도 및 KCI 논문 게재
-      머신러닝/딥러닝 기반 예측 모델링 프로젝트 참여
+      - Python과 Tableau를 활용한 옥수수 수율 예측 모델 개발
+      - 기존 모델 대비 예측 오차(MSE) 10% 감소 기여
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -122,43 +105,36 @@ skills:
     items:
       - name: Python
         description: ''
-        percent: 95
         icon: brands/python
       - name: R
         description: ''
-        percent: 85
         icon: brands/r-project
-      - name: ML & DL
-        description: '(Scikit-learn, XGBoost, PyTorch, Transformers, Diffusion)'
-        percent: 90
-        icon: academicons/brain
-      - name: Bayesian Statistics
-        description: '(메타분석, HME, 인과추론)'
-        percent: 95
-        icon: chart-bar
+      - name: SQL
+        description: ''
+        icon: brands/SQL
       - name: Data Tools
-        description: '(Tableau, 엑셀, 구글 시트)'
+        description: '(Tableau, Excel, Google sheets)'
         percent: 80
         icon: fas/table-cells
   - name: 취미
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: 런닝
+      - name:🏃🏻‍♀️‍➡️
         description: ''
         percent: 80
         icon: fas/person-running
-      - name: 수영
+      - name: 🏊🏻‍♀️
         description: ''
         percent: 70
         icon: fas/person-swimming
 
 languages:
-  - name: 한국어
-    percent: 100
-  - name: 영어
-    percent: 90
-    summary: 'TOEIC Speaking: Advanced Low (AL)'
+  - name: Korean
+    # percent: 100
+  - name: English
+    # percent: 90
+    summary: -TOEIC Speaking: Advanced Low (AL)
 
 # Awards.
 #   Add/remove as many awards below as you like.
