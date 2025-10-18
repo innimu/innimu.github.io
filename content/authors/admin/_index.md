@@ -78,7 +78,7 @@ education:
       - "비율 자료 모형화를 위한 베이지안 베타 회귀" 연구 주도 및 KCI 논문 게재
       - 머신러닝/딥러닝 기반 예측 모델링 프로젝트 참여
 
-Experience:
+experience:
   - position: 프리랜서 데이터 사이언티스트
     company_name: 하이렙
     company_url: ''

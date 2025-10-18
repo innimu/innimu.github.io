@@ -72,7 +72,7 @@ sections:
           - projects
         featured_only: true
     design:
-      view: card
+      view: card-grid
       columns: 4
 
 
