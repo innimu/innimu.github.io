@@ -20,7 +20,7 @@ sections:
         url: uploads/resume.pdf
       headings:
         about: ''
-        education: ''
+        # education: ''
         interests: ''
     design:
       # Apply a gradient background
@@ -29,6 +29,23 @@ sections:
       avatar:
         size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
         shape: circle # Options: circle (default), square, rounded
+  - block: accomplishments
+    content:
+      title: 'Education'
+      username: admin # content/authors/admin 폴더를 가리킴
+      # _index.md의 'education' 항목을 가져오도록 지정
+      items:
+        - title: 'education' 
+          organization: ''
+          organization_url: ''
+          date: ''
+          date_end: ''
+          description: ''
+          certificate_url: ''
+          url: ''
+    design:
+      # '1'로 설정하면 카드가 가로로 길어집니다.
+      columns: '1'
   # - block: markdown
   #   content:
   #     title: '📚 My Research'
