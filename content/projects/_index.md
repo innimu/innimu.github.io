@@ -4,34 +4,35 @@ date: 2024-05-19
 type: landing
 
 design:
-  # Section spacing
   spacing: '5rem'
 
-# Page sections
 sections:
-  - block: portfolio
+  - block: collection
     content:
       title: Projects
+      subtitle: ''
       text: I enjoy making things. Here are a selection of projects that I have worked on over the years.
       
-      # 1. 필터 기준 설정
-      filter_by: "tags"
-      
-      # 2. (추가!) 필터 버튼 '켜기'
-      show_filter_categories: true 
-      
-      # 3. 필터 스타일 설정
-      filter_style: "navbar"
-      
-      # (이 부분은 올바르게 잘 하셨습니다)
+      # 프로젝트 폴더에서 콘텐츠 가져오기
       filters:
         folders:
           - projects
+        exclude_featured: false
+      
+      # 태그별 필터 버튼 (카테고리처럼 작동)
+      filter_button:
+        - name: All
+          tag: '*'
+        - name: 영업/마케팅
+          tag: sales-marketing
+        - name: 수요모델링
+          tag: demand-modeling
+        - name: 데이터 분석
+          tag: data-analysis
+        - name: Python
+          tag: Python
+        
     design:
-      view: acard
-      fill_image: false
-      columns: 4
-      show_date: false
-      show_read_time: false
-      show_read_more: false
+      view: card
+      columns: '3'
 ---

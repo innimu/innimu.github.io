@@ -1,15 +1,10 @@
 ---
-title: scikit-learn
-date: 2023-10-26
-links:
-  - type: site
-    url: https://github.com/scikit-learn/scikit-learn
+title: 고객 세분화 분석
+date: 2023-09-20
 tags:
-  - Hugo
-  - HugoBlox
-  - Markdown
+  - data-analysis
+  - sales-marketing
+summary: 머신러닝 기반 고객 클러스터링 프로젝트
 ---
 
-scikit-learn is a Python module for machine learning built on top of SciPy and is distributed under the 3-Clause BSD license.
-
-<!--more-->
+내용...

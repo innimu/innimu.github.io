@@ -1,15 +1,11 @@
 ---
-title: PyTorch
-date: 2023-10-26
-links:
-  - type: site
-    url: https://github.com/pytorch/pytorch
+title: 수요 예측 모델링
+date: 2023-11-15
 tags:
-  - Hugo
-  - HugoBlox
-  - Markdown
+  - demand-modeling
+  - data-analysis
+  - Python
+summary: 시계열 데이터를 활용한 수요 예측 딥러닝 모델
 ---
 
-PyTorch is a Python package that provides tensor computation (like NumPy) with strong GPU acceleration.
-
-<!--more-->
+내용...
