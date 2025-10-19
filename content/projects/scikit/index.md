@@ -6,5 +6,3 @@ tags:
   - sales-marketing
 summary: 머신러닝 기반 고객 클러스터링 프로젝트
 ---
-
-내용...

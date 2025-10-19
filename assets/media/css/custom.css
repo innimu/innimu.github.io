@@ -128,3 +128,55 @@ h1.hero-title {
     padding: 0 1.5rem;
   }
 }
+/* Projects Filter Buttons */
+.projects-filter-wrapper {
+  max-width: 1600px;
+  margin: 0 auto 3rem;
+  padding: 0 3rem;
+}
+
+.projects-filter-wrapper .filter-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.projects-filter-wrapper .filter-btn {
+  padding: 0.75rem 2rem;
+  background: white;
+  border: 2px solid #6366f1;
+  border-radius: 50px;
+  color: #6366f1;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  font-size: 1rem;
+}
+
+.projects-filter-wrapper .filter-btn:hover {
+  background: #eef2ff;
+  transform: translateY(-2px);
+}
+
+.projects-filter-wrapper .filter-btn.active {
+  background: #6366f1;
+  color: white;
+}
+
+/* Projects Grid Width */
+#projects-grid .hbx-section-content {
+  max-width: 1600px !important;
+  margin: 0 auto;
+  padding: 0 3rem;
+}
+
+#projects-grid article {
+  transition: all 0.3s ease;
+}
+
+/* Card hover effect enhancement */
+#projects-grid article:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}

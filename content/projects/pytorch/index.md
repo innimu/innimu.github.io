@@ -1,11 +1,8 @@
 ---
-title: 수요 예측 모델링
-date: 2023-11-15
+title: 영업 전환 예측 모델
+date: 2023-10-26
 tags:
-  - demand-modeling
+  - sales-marketing
   - data-analysis
-  - Python
-summary: 시계열 데이터를 활용한 수요 예측 딥러닝 모델
+summary: 고객 행동 데이터를 기반으로 영업 전환 가능성을 예측
 ---
-
-내용...
