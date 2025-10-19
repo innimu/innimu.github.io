@@ -141,10 +141,10 @@ skills:
 
 languages:
   - name: Korean
-    percent: 100
+    # percent: 100
   - name: English # (TOEIC Speaking AL)
-    percent: 80
-#     summary: -TOEIC Speaking Advanced Low (AL)
+    # percent: 80
+    summary: -TOEIC Speaking Advanced Low (AL)
 
 # Awards.
 #   Add/remove as many awards below as you like.
