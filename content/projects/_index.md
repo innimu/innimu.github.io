@@ -13,15 +13,21 @@ sections:
       subtitle: ''
       text: I enjoy making things. Here are a selection of projects that I have worked on over the years.
       
-      # 프로젝트 폴더에서 콘텐츠 가져오기
+      count: 0  # 모든 프로젝트 표시
+      offset: 0
+      order: desc
+      
       filters:
         folders:
           - projects
         exclude_featured: false
-      
-      # 태그별 필터 버튼 (카테고리처럼 작동)
+        exclude_past: false
+        exclude_future: false
+        
+      # 태그 필터 활성화
+      filter_default: 0
       filter_button:
-        - name: All
+        - name: 전체
           tag: '*'
         - name: 영업/마케팅
           tag: sales-marketing
@@ -29,10 +35,8 @@ sections:
           tag: demand-modeling
         - name: 데이터 분석
           tag: data-analysis
-        - name: Python
-          tag: Python
         
     design:
-      view: card
-      columns: '3'
----
+      view: showcase  # 또는 compact, card 시도
+      columns: '2'
+      flip_alt_rows: false
