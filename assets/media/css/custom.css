@@ -1,51 +1,6 @@
 /* 홈페이지 메인 이름 폰트 두께 조절 */
 h1.hero-title {
-  font-weight: 400 !important; /* 400은 'normal' 두께입니다. 300은 'light' 입니다. */
-}
-
-/* 필터 버튼 스타일 */
-.project-filter-buttons {
-  display: flex;
-  gap: 1rem;
-  margin: 2rem 0;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.filter-btn {
-  padding: 0.75rem 1.5rem;
-  border: 2px solid #6366f1;
-  background: transparent;
-  color: #6366f1;
-  border-radius: 9999px;
-  cursor: pointer;
-  font-weight: 500;
-  transition: all 0.3s ease;
-}
-
-.filter-btn:hover,
-.filter-btn.active {
-  background: #6366f1;
-  color: white;
-}
-
-/* 프로젝트 카드 그리드 */
-.article-style {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
-}
-
-@media (max-width: 1024px) {
-  .article-style {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (max-width: 768px) {
-  .article-style {
-    grid-template-columns: 1fr;
-  }
+  font-weight: 400 !important;
 }
 
 /* Projects Page Custom Styles */
@@ -54,7 +9,13 @@ h1.hero-title {
   padding: 0 !important;
 }
 
-.filter-buttons {
+.projects-container {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 3rem;
+}
+
+.projects-container .filter-buttons {
   display: flex;
   gap: 1rem;
   justify-content: center;
@@ -62,7 +23,7 @@ h1.hero-title {
   flex-wrap: wrap;
 }
 
-.filter-btn {
+.projects-container .filter-btn {
   padding: 0.75rem 2rem;
   background: white;
   border: 2px solid #6366f1;
@@ -74,20 +35,14 @@ h1.hero-title {
   font-size: 1rem;
 }
 
-.filter-btn:hover {
+.projects-container .filter-btn:hover {
   background: #eef2ff;
   transform: translateY(-2px);
 }
 
-.filter-btn.active {
+.projects-container .filter-btn.active {
   background: #6366f1;
   color: white;
-}
-
-.projects-container {
-  max-width: 1600px;
-  margin: 0 auto;
-  padding: 0 3rem;
 }
 
 .projects-grid {
