@@ -46,7 +46,9 @@ taxonomies:
   tag: tags
   publication_type: publication_types
 markup:
-  _merge: deep
+  goldmark:
+    renderer:
+      unsafe: true  # HTML 렌더링 허용
   highlight:
     lineNos: false
 security:
