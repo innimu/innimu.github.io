@@ -148,7 +148,7 @@ sections:
     <button class="filter-btn active" onclick="filterProjects('all')">전체</button>
     <button class="filter-btn" onclick="filterProjects('sales-marketing')">영업/마케팅</button>
     <button class="filter-btn" onclick="filterProjects('demand-modeling')">수요모델링</button>
-    <button class="filter-btn" onclick="filterProjects('data-analysis')">데이터 분석</button>
+    <button class="filter-btn" onclick="filterProjects('data-analysis')">데이터분석</button>
   </div>
   
   <div class="projects-grid" id="projectsGrid">
