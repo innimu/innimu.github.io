@@ -7,10 +7,16 @@ design:
   spacing: '3rem'
 
 sections:
+  - block: markdown
+    content:
+      title: ''
+      text: '{{ partial "projects-filter.html" . }}'
+    design:
+      columns: '1'
+      
   - block: collection
     content:
       title: Projects
-      subtitle: ''
       text: ''
       filters:
         folders:
