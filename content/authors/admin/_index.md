@@ -98,7 +98,7 @@ work:
     summary: |2-
       - Python과 Tableau를 활용한 옥수수 수율 예측 모델 개발
       - 기존 모델 대비 예측 오차(MSE) 10% 감소 기여
-  - position: 데이터·업무 운영 담당(파트타임)
+  - position: 데이터 구축·업무 자동화 지원
     company_name: MK Academy
     company_url: ''
     company_logo: ''
