@@ -3,84 +3,39 @@ h1.hero-title {
   font-weight: 400 !important;
 }
 
-/* Projects Filter Buttons */
-.filter-section {
+/* Projects - Force Grid Layout */
+body:has(h1:contains("Projects")) .hbx-section-content {
+  display: grid !important;
+  grid-template-columns: repeat(3, 1fr) !important;
+  gap: 2rem !important;
   max-width: 1600px !important;
   margin: 0 auto !important;
   padding: 0 3rem !important;
 }
 
-.projects-filter-wrapper {
-  max-width: 1600px;
-  margin: 0 auto 3rem;
-  padding: 0 3rem;
+/* Target by URL */
+body[data-page="/projects/"] .hbx-section-content > div,
+section .hbx-section-content > div[role="article"] {
+  display: inline-block !important;
+  width: 100% !important;
 }
 
-.projects-filter-wrapper .filter-buttons {
-  display: flex;
-  gap: 1rem;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin-bottom: 2rem;
-}
-
-.projects-filter-wrapper .filter-btn {
-  padding: 0.75rem 2rem;
-  background: white;
-  border: 2px solid #6366f1;
-  border-radius: 50px;
-  color: #6366f1;
-  cursor: pointer;
-  font-weight: 600;
-  transition: all 0.3s ease;
-  font-size: 1rem;
-}
-
-.projects-filter-wrapper .filter-btn:hover {
-  background: #eef2ff;
-  transform: translateY(-2px);
-}
-
-.projects-filter-wrapper .filter-btn.active {
-  background: #6366f1;
-  color: white;
-}
-
-/* Projects Grid - 3 columns */
-#projects-grid .hbx-section-content {
-  max-width: 1600px !important;
-  margin: 0 auto !important;
-  padding: 0 3rem !important;
-}
-
-#projects-grid .stream-list {
+/* Parent container of cards */
+.hbx-section-content {
   display: grid !important;
   grid-template-columns: repeat(3, 1fr) !important;
   gap: 2rem !important;
 }
 
-#projects-grid article {
-  transition: all 0.3s ease;
-  margin-bottom: 0 !important;
-}
-
-#projects-grid article:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-}
-
 /* Responsive */
 @media (max-width: 1024px) {
-  #projects-grid .stream-list {
+  .hbx-section-content {
     grid-template-columns: repeat(2, 1fr) !important;
   }
 }
 
 @media (max-width: 640px) {
-  #projects-grid .stream-list {
+  .hbx-section-content {
     grid-template-columns: 1fr !important;
-  }
-  .projects-filter-wrapper {
-    padding: 0 1.5rem;
   }
 }
