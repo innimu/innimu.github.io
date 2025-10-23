@@ -23,6 +23,7 @@ image:
   preview_only: true
 ---
 
+---
 ### Method Overview
 
 This study proposes a three-stage synthetic data generation framework for TEL detection in satellite imagery.
