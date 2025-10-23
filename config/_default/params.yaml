@@ -35,7 +35,7 @@ header:
     show_search: true
     show_theme_chooser: true
     logo:
-      text: '이정인'
+      text: 'JeongIn Lee'
 
 # Site footer
 footer:
@@ -58,3 +58,10 @@ features:
     enable: false
   privacy_pack:
     enable: false
+
+# 프로젝트 카드 설정 (추가)
+projects:
+  view: card  # 또는 showcase, compact
+  card:
+    show_tags: true
+    tags_limit: 3  # 카드에 표시할 최대 태그 수
