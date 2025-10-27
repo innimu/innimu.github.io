@@ -141,9 +141,9 @@ skills:
 
 languages:
   - name: Korean
-    # percent: 100
+    percent: 100
   - name: English # (TOEIC Speaking AL)
-    # percent: 80
+    percent: 80
     summary: -TOEIC Speaking Advanced Low (AL)
 
 # Awards.
@@ -182,6 +182,6 @@ Research 🔬: 인하대학교 통계학 석사 과정에서 베이지안 계층
 
 Work 💼: 프리랜서 및 인턴 활동을 통해 실제 산업 문제를 해결했습니다. 특히 한국난방공사 수요 예측 프로젝트를 주도하며 시계열 파이프라인을 구축, 기존 모델 대비 예측 오차(MAPE)를 75% 감소시키는 실질적인 성과를 만들었습니다.
 
-Projects 🚀: [다양한 도메인의 프로젝트] (https://innimu.github.io/projects/)를 통해 광고, 제조, 멀티모달 추천 시스템 등 여러 분야의 데이터를 분석하고 가치를 발굴한 경험이 있습니다.
+Projects 🚀: <a href="https://innimu.github.io/projects/">다양한 도메인의 프로젝트</a>를 통해 광고, 제조, 멀티모달 추천 시스템 등 여러 분야의 데이터를 분석하고 가치를 발굴한 경험이 있습니다.
 
 학계의 정교한 모델링과 현업의 실용적인 문제 해결 경험을 바탕으로, 데이터 기반의 핵심 솔루션을 제공하여 비즈니스 성장에 기여하겠습니다.
