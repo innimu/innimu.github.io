@@ -64,17 +64,17 @@ sections:
       view: article-grid  # citation → article-grid로 변경
       columns: 3  # 3열로 설정
 
-  - block: collection
-    id: projects
-    content:
-      title: Projects
-      filters:
-        folders:
-          - projects
-        featured_only: true
-    design:
-      view: card-grid
-      columns: 4
+  # - block: collection
+  #   id: projects
+  #   content:
+  #     title: Projects
+  #     filters:
+  #       folders:
+  #         - projects
+  #       featured_only: true
+  #   design:
+  #     view: card-grid
+  #     columns: 4
 
 
   # - block: collection
