@@ -8,6 +8,9 @@ authors:
 date: 2025-10-01
 publishDate: 2025-10-01
 draft: false
+links:
+  - type: pdf
+    url: 'TEL.pdf'
 publication_types:
   - article
 publication: "Submitted to *ISPRS Journal of Photogrammetry and Remote Sensing*"

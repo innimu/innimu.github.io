@@ -9,6 +9,9 @@ authors:
 date: 2025-09-01
 publishDate: 2025-10-01
 draft: false
+links:
+  - type: pdf
+    url: 'meta_analysis.pdf'
 publication_types:
   - article
 publication: "Submitted to *Statistical Methods in Medical Research*"
