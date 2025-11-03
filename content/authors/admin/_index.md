@@ -118,14 +118,14 @@ skills:
         icon: brands/python
       - name: R
         description: ''
-        icon: brands/r-project
+        icon: fab/r-project
       - name: Spark
         description: ''
-        icon: brands/database
+        icon: fab/database
       - name: Data Tools
         description: '(Tableau, Excel, Google sheets)'
         percent: 80
-        icon: fas/table-cells
+        icon: fab/table-cells
   - name: 취미
     color: '#eeac02'
     color_border: '#f0bf23'
@@ -133,11 +133,11 @@ skills:
       - name: 'Running 🏃🏻‍♀️‍➡️' 
         description: ''
         percent: 80
-        icon: fas/person-running
+        icon: fab/person-running
       - name: 'Swimming 🏊🏻‍♀️'  
         description: ''
         percent: 70
-        icon: fas/person-swimming
+        icon: fab/person-swimming
 
 languages:
   - name: Korean
