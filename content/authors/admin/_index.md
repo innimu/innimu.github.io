@@ -119,9 +119,9 @@ skills:
       - name: R
         description: ''
         icon: brands/r-project
-      - name: SQL
+      - name: Spark
         description: ''
-        icon: brands/SQL
+        icon: brands/database
       - name: Data Tools
         description: '(Tableau, Excel, Google sheets)'
         percent: 80
