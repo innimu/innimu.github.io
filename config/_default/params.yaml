@@ -58,12 +58,11 @@ features:
     enable: false
   privacy_pack:
     enable: false
-
-font:
-    enable: true
-    icon_packs:
-      - 'fas' # fas/database, fas/table-cells 등 Solid 아이콘용
-      - 'fab' # brands/python, brands/r-project 등 Brand 아이콘용
+  font:
+      enable: true
+      icon_packs:
+        - 'fas' # fas/database, fas/table-cells 등 Solid 아이콘용
+        - 'fab' # brands/python, brands/r-project 등 Brand 아이콘용
 
 # 프로젝트 카드 설정 (추가)
 projects:
