@@ -72,7 +72,7 @@ CLIP Score(텍스트 일치도)는 높지만 HSV Score(색상 유사도)가 낮�
 - L-CAD의 구조 보존 능력, CATANet의 고품질 복원, 세밀한 후보정 전략을 결합하여 **최우수상**을 수상했습니다.
 
 <figure style="margin: 2rem 0;">
-  <img src="result.png" alt="Colorization Results" style="width: 90%; border-radius: 8px; display: block; margin: 0 auto;">
+  <img src="featured.png" alt="Colorization Results" style="width: 90%; border-radius: 8px; display: block; margin: 0 auto;">
   <figcaption style="text-align: center; color: #6b7280; font-size: 0.9rem; margin-top: 0.5rem; font-style: italic;">
     Figure 3. 전체 파이프라인 결과
   </figcaption>
