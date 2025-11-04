@@ -17,7 +17,7 @@ image:
 #   url: 'TOSS_CTR (2).pdf'
 ---
 
-## 1. 프로젝트 개요
+## 1. 대회 개요
 
 - **대회:** Toss NEXT ML CHALLENGE
 - **목표:** 토스(Toss) 앱 내 광고 클릭 확률(CTR) 예측 모델 개발.
