@@ -23,7 +23,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Data Scientist · ML Engineer
+role: Data Scientist
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
@@ -178,7 +178,7 @@ awards:
 
 ---
 안녕하세요, 
-Data Scientist & ML Engineer 이정인입니다.
+Data Scientist 이정인입니다.
 
 
 데이터의 불확실성을 통계적 근거로 해석하고, 실질적인 비즈니스 해답으로 연결합니다. 
