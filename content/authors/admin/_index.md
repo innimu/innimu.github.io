@@ -23,7 +23,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Data Scientist
+role: Data Scientist · ML Engineer
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
@@ -36,8 +36,8 @@ profiles:
   - icon: at-symbol
     url: 'mailto:jeongin.lee108@gmail.com'
     label: 이메일
-  - icon: brands/github
-    url: https://github.com/innimu
+  # - icon: brands/github
+    # url: https://github.com/innimu
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/jeongin/
 
@@ -162,7 +162,7 @@ awards:
   - title: 2024 한국정보통계 학회 학생연구발표 우수구연상
     url: ''
     date: '2024-05-22'
-    awarder: 한국보건정보통계학회
+    awarder: 한국보건정보통계학회 
     icon: hero/trophy
     summary: |
       주제: "베이지안 메타분석을 활용한 카드뮴 위해 기준치 추정"
@@ -175,15 +175,16 @@ awards:
     summary: |
       주제: "멀티모달 데이터 기반 추천 시스템"
       그래프 기반 모델(LightGCN, BM3)을 설계하여 텍스트 리뷰, 평점, 이미지를 융합하고 추천 정확도(NDCG) 향상
+
 ---
-안녕하세요,
+Data Scientist & ML Engineer 이정인입니다.
 
-복잡한 데이터 속에서 비즈니스 인사이트를 발굴하는 데이터 사이언티스트 이정인입니다.
+데이터의 불확실성을 통계적 근거로 해석하고, 실질적인 비즈니스 해답으로 연결합니다.
 
-**Research 📚** Bayesian Inference, Generative AI (Diffusion) 
+복잡한 데이터 속에서 신뢰할 수 있는 기준을 세우며, 데이터가 가장 가치 있게 쓰이는 방법을 탐구합니다.
 
-**Business Impact 💼** 열판매 수요 예측 오차 75% 개선, 옥수수 수율 예측 오차 10% 개선
+데이터가 수집되는 시작점부터 의사결정이 이루어지는 끝단까지, 신뢰 가능한 결과를 만들기 위해 깊이 있게 고민합니다.
 
-**Projects 🚀** <a href="https://innimu.github.io/projects/">광고 클릭률(CTR) 예측, 추천 시스템, 이상 탐지</a> 등
 
+📚 Research Interests : Bayesian Inference (Risk Modeling) 🎨 Generative AI (Diffusion)
 ---
