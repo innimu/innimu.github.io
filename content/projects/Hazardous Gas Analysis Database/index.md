@@ -22,7 +22,7 @@ image:
 - **역할:** DB 스키마 설계, PyQt5 기반 GUI 개발, `matchms` 라이브러리를 활용한 스펙트럼 유사도 분석 로직 구현
 
 ## 2. 핵심 기능 및 개발 내용
-ㄴ
+
 ### 2-1. GC/MS 원본 데이터 파싱 및 처리
 
 **Custom Parsing 및 MatchMS 기반 분석**
